@@ -1,0 +1,142 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-box {
+  position: absolute;
+  top: 30px;
+  left: 185px;
+  transform: translate(-50%, -50%);
+  background: #555;
+  height: 40px;
+  border-radius: 50px;
+  color: #ccc;
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-search {
+  font-size: 17px;
+  color: #ccc;
+  margin-left: 15px;
+  margin-top: 13px;
+  font-weight: 100;
+}
+
+.search-input {
+  margin-top: 0px;
+  margin-left: 10px;
+  border: none;
+  background: none;
+  outline: none;
+
+  color: #fff;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 250px;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+.fa-house {
+  color: #2474e1 !important;
+}
+.live {
+  border-bottom: 4px solid #2474e1 !important;
+}
+
+.fa-solid {
+  position: relative;
+  font-size: 23px;
+  color: #999;
+}
+
+.icons:hover {
+  background-color: #555;
+}
+
+.icons {
+  top: 5px;
+  left: 350px;
+  bottom: 0;
+
+  padding-top: 10px;
+
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+  min-width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+
+  display: flex;
+
+  height: 50px;
+}
+
+.profileWrapper {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px 50px 50px 50px;
+  padding: 5px;
+  width: 110px;
+}
+.profile h6 {
+  margin-top: 10px;
+}
+
+.profile img {
+  height: 3rem;
+  margin-left: 3px;
+  transform: scale(1.3);
+}
+.profileImg {
+  border-radius: 50%;
+  height: 2.4rem;
+  width: 2.4rem;
+  overflow: hidden;
+
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.profile:hover {
+  background-color: #999;
+}
+
+.profileIcons {
+  font-size: 25px;
+  margin-left: 20px;
+  height: 45px;
+  width: 44px;
+
+  background-color: #333;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.profileIcons:hover {
+  transition: 0.2s;
+  background-color: #555;
+}

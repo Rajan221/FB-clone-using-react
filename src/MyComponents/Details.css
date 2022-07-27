@@ -1,0 +1,55 @@
+.details {
+  max-width: 300px;
+  height: 93vh;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  visibility: hidden;
+  position: sticky;
+  top: 60px;
+}
+
+.detailsContent,
+.details:hover,
+.details:focus {
+  visibility: visible;
+}
+
+.detailsContent {
+  background-color: #222;
+
+  color: #ccc;
+  padding: 20px 0px 0px 20px;
+}
+
+.details:hover {
+  transition: 0.9s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

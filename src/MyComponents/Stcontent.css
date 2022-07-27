@@ -1,0 +1,32 @@
+.background {
+  height: 200px;
+  width: 100%;
+  float: left;
+  position: relative;
+  /* background-size: auto; */
+  overflow: hidden;
+  z-index: 0;
+}
+
+.frame {
+  overflow: hidden;
+}
+
+.backgroundCover:hover .background {
+  transform: scale(1.04);
+  transition: 0.3s;
+}
+
+.avatar {
+  float: left;
+  border-radius: 50%;
+}
+
+.text {
+  bottom: 30px;
+  left: 10px;
+  z-index: 1;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
